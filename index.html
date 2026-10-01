@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmarks · seicke</title>
+  <meta name="description" content="A curated collection of links.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔖</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Bookmarks</h1>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search…  ( / )" aria-label="Search bookmarks" autocomplete="off">
+      <div class="toolbar-row">
+        <nav id="tags" class="tags" aria-label="Filter by tag"></nav>
+        <label class="toggle"><input id="group-toggle" type="checkbox"> Group by tag</label>
+      </div>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <div id="list"></div>
+    <p id="empty" class="empty" hidden>No bookmarks found.</p>
+  </main>
+
+  <footer class="foot">
+    <span id="count"></span> · <a id="edit-link" href="#" target="_blank" rel="noopener">Edit on GitHub</a>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

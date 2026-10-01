@@ -1,0 +1,160 @@
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --text: #1c1c1e;
+  --muted: #6b6b70;
+  --border: #e3e3e0;
+  --accent: #2f6fde;
+  --accent-soft: #e6eefc;
+  --danger: #c4372f;
+  --radius: 10px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141416;
+    --surface: #1d1d20;
+    --text: #ececef;
+    --muted: #9a9aa2;
+    --border: #2e2e33;
+    --accent: #6d9bf1;
+      --accent-soft: #1f2a40;
+    --danger: #f0756c;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+a { color: var(--accent); }
+
+.top, main, .foot {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.top h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
+
+button {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+button:hover { border-color: var(--muted); }
+
+input {
+  font: inherit;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+input:focus, button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.toolbar { display: grid; gap: 10px; }
+
+.tags, .item-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.toolbar-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.toggle { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.85rem; cursor: pointer; white-space: nowrap; }
+.toggle input { width: auto; margin: 0; accent-color: var(--accent); }
+
+.tag {
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.tag.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
+.status { min-height: 1.5em; margin: 12px 0 4px; color: var(--muted); font-size: 0.9rem; }
+.status.error { color: var(--danger); }
+
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.favicon { flex: none; margin-top: 3px; border-radius: 3px; }
+.favicon.missing { visibility: hidden; }
+
+.item-body { flex: 1; min-width: 0; }
+.item-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.title { font-weight: 600; color: var(--text); text-decoration: none; overflow-wrap: anywhere; }
+a.title:hover { color: var(--accent); text-decoration: underline; }
+.host { color: var(--muted); font-size: 0.8rem; }
+.desc { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; overflow-wrap: anywhere; }
+.item-tags { margin-top: 8px; }
+.item-tags .tag { padding: 0 8px; }
+
+.group + .group { margin-top: 16px; }
+.group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 8px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.group-title::-webkit-details-marker { display: none; }
+.group-title::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-right: 2px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: translateY(-2px) rotate(-45deg);
+  transition: transform 0.15s;
+  align-self: center;
+}
+.group[open] > .group-title::before { transform: translateY(-3px) rotate(45deg); }
+.group-title h2 { margin: 0; font-size: 0.95rem; font-weight: 600; }
+.group-title:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.group-count { color: var(--muted); font-size: 0.8rem; font-weight: 400; }
+
+.empty { color: var(--muted); text-align: center; padding: 32px 0; }
+
+.foot {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+

@@ -1,0 +1,50 @@
+{
+  "bookmarks": [
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/index/home/index.html",
+      "title": "IDTA AAS Specifications",
+      "description": "Official IDTA specifications for the Asset Administration Shell (AAS), the standardized Digital Twin for Industrie 4.0: metamodel, APIs, data specifications, security and the AASX package format.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/idta-submodel-templates/index/home/index.html",
+      "title": "IDTA Submodel Templates Specifications",
+      "description": "Standardized, reusable IDTA submodel templates for the Asset Administration Shell, such as Digital Nameplate, Technical Data and Handover Documentation. Covers a selection of the published templates.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "title": "IDTA Submodel Templates Repository",
+      "description": "GitHub repository with all published and deprecated IDTA Submodel Templates (SMT) for the Asset Administration Shell, organized by version, with ready-to-use AASX and JSON template files and the PDF specifications.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-guides-antora/index/home/index.html",
+      "title": "IDTA AAS Guides",
+      "description": "Official IDTA guides that explain how to apply the AAS specifications in practice: a Quick Start Guide, a Reading Guide, AAS concepts, creating Submodel Template specifications and an AAS–SAMM guideline. Some guides are still in progress.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "https://smt-repo.admin-shell-io.com",
+      "title": "IDTA Submodel Template Repository",
+      "description": "Online catalog of IDTA Submodel Templates, filterable by lifecycle phase and application (e.g. Digital Product Passport, Battery Passport), with downloads, API access and PDF specifications for each template. Also lists Concept Descriptions and Submodel Elements.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "",
+      "title": "",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
