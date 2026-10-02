@@ -56,7 +56,35 @@ function normalize(data) {
       description: String(b.description || ''),
       tags: Array.isArray(b.tags) ? b.tags.map(String) : [],
     }))
-    .filter((b) => safeHref(b.url)); // skip entries without a usable http(s) URL
+    .filter((b) => safeHref(b.url)) // skip entries without a usable http(s) URL
+    .sort(compareBookmarks);
+}
+
+// --- Sorting -------------------------------------------------------------
+// bookmarks.json stays in any order; the page sorts by title, then domain, then tags.
+// Tags are compared like a folder path ("AAS › BaSyx › Github"): parents come before
+// their children, untagged bookmarks come last.
+
+const collator = new Intl.Collator('de', { sensitivity: 'base', numeric: true });
+
+function compareTagPaths(a, b) {
+  if (!a.length || !b.length) return b.length - a.length;
+  for (let i = 0; i < Math.min(a.length, b.length); i++) {
+    const order = collator.compare(a[i], b[i]);
+    if (order) return order;
+  }
+  return a.length - b.length;
+}
+
+// Leading punctuation such as "(Batch)" should not decide the order.
+const titleKey = (title) => title.replace(/^[^\p{L}\p{N}]+/u, '');
+
+function compareBookmarks(a, b) {
+  return (
+    collator.compare(titleKey(a.title), titleKey(b.title)) ||
+    collator.compare(hostOf(a.url), hostOf(b.url)) ||
+    compareTagPaths(a.tags, b.tags)
+  );
 }
 
 async function loadBookmarks() {
