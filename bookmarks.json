@@ -2,42 +2,316 @@
   "bookmarks": [
     {
       "url": "https://industrialdigitaltwin.io/aas-specifications/index/home/index.html",
-      "title": "IDTA AAS Specifications",
+      "title": "IDTA | AAS Specifications",
       "description": "Official IDTA specifications for the Asset Administration Shell (AAS), the standardized Digital Twin for Industrie 4.0: metamodel, APIs, data specifications, security and the AASX package format.",
       "tags": [
-        "AAS"
+        "AAS",
+        "IDTA"
       ]
     },
     {
       "url": "https://industrialdigitaltwin.io/idta-submodel-templates/index/home/index.html",
-      "title": "IDTA Submodel Templates Specifications",
+      "title": "IDTA | Submodel Templates Specifications",
       "description": "Standardized, reusable IDTA submodel templates for the Asset Administration Shell, such as Digital Nameplate, Technical Data and Handover Documentation. Covers a selection of the published templates.",
       "tags": [
-        "AAS"
+        "AAS",
+        "IDTA"
       ]
     },
     {
       "url": "https://github.com/admin-shell-io/submodel-templates",
-      "title": "IDTA Submodel Templates Repository",
+      "title": "IDTA | Submodel Templates Repository",
       "description": "GitHub repository with all published and deprecated IDTA Submodel Templates (SMT) for the Asset Administration Shell, organized by version, with ready-to-use AASX and JSON template files and the PDF specifications.",
       "tags": [
-        "AAS"
+        "AAS",
+        "Github",
+        "IDTA"
       ]
     },
     {
       "url": "https://industrialdigitaltwin.io/aas-guides-antora/index/home/index.html",
-      "title": "IDTA AAS Guides",
+      "title": "IDTA | AAS Guides",
       "description": "Official IDTA guides that explain how to apply the AAS specifications in practice: a Quick Start Guide, a Reading Guide, AAS concepts, creating Submodel Template specifications and an AAS–SAMM guideline. Some guides are still in progress.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://smt-repo.admin-shell-io.com",
+      "title": "IDTA | Submodel Template Repository",
+      "description": "Online catalog of IDTA Submodel Templates, filterable by lifecycle phase and application (e.g. Digital Product Passport, Battery Passport), with downloads, API access and PDF specifications for each template. Also lists Concept Descriptions and Submodel Elements.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://basyx.org/",
+      "title": "Eclipse BaSyx™",
+      "description": "Homepage of Eclipse BaSyx, the open-source Digital Twin middleware for the Asset Administration Shell: off-the-shelf components, a Starter Kit to configure your own setup, documentation and the \"AAS Dataspace for Everybody\" test environment.",
+      "tags": [
+        "AAS",
+        "BaSyx"
+      ]
+    },
+    {
+      "url": "https://wiki.basyx.org",
+      "title": "Eclipse BaSyx™ | Wiki",
+      "description": "Official Eclipse BaSyx documentation: getting started, configuring and running the BaSyx components, and working with the SDKs.",
+      "tags": [
+        "AAS",
+        "BaSyx"
+      ]
+    },
+    {
+      "url": "https://nc.iese.de/s/bifEqSFoeJwEHaL",
+      "title": "Eclipse BaSyx™ | IESE Cloud",
+      "description": "Shared Fraunhofer IESE cloud folder (Nextcloud) with BaSyx files. Password-protected; the password is not stored here.",
+      "tags": [
+        "AAS",
+        "BaSyx"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-basyx",
+      "title": "GitHub | eclipse-basyx",
+      "description": "GitHub organization of Eclipse BaSyx with all repositories: Java, .NET, Python and Go SDKs and components, the AAS Web UI, the Starter Kit, Helm charts and the wiki.",
+      "tags": [
+        "AAS",
+        "BaSyx",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-basyx/basyx-go-components",
+      "title": "GitHub | eclipse-basyx/basyx-go-components",
+      "description": "BaSyx server components written in Go, covering all standardized server components from AAS Specification Part 2 (Application Programming Interfaces).",
+      "tags": [
+        "AAS",
+        "BaSyx",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-basyx/basyx-aas-web-ui",
+      "title": "GitHub | eclipse-basyx/basyx-aas-web-ui",
+      "description": "Source code of the BaSyx AAS Web UI, a web-based user interface for browsing, managing and interacting with Asset Administration Shells and their submodels.",
+      "tags": [
+        "AAS",
+        "BaSyx",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://hub.docker.com/u/eclipsebasyx",
+      "title": "Dockerhub | Eclipse BaSyx™",
+      "description": "Official Docker images of Eclipse BaSyx, such as the AAS environment, registries, discovery service and the AAS Web UI.",
+      "tags": [
+        "AAS",
+        "BaSyx",
+        "Docker"
+      ]
+    },
+    {
+      "url": "https://eclass.eu/eclass-standard/content-suche",
+      "title": "ECLASS | Content Suche",
+      "description": "Free search and browsing of the current ECLASS releases (Basic and Advanced): classes, properties and values that can be used as semantic IDs in AAS submodels.",
+      "tags": [
+        "ECLASS"
+      ]
+    },
+    {
+      "url": "https://eclass-cdp.com/",
+      "title": "ECLASS | CDP",
+      "description": "ECLASS Content Development Platform (eptos), where new and changed ECLASS content is proposed, edited and reviewed.",
+      "tags": [
+        "ECLASS"
+      ]
+    },
+    {
+      "url": "https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/TreeFrameset?OpenFrameSet",
+      "title": "IEC | CDD - Common Data Dictionary",
+      "description": "IEC Common Data Dictionary for IEC 61987 (process measurement and control equipment): standardized classes and properties with IRDIs, usable as semantic IDs in the AAS.",
+      "tags": [
+        "IEC"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-aas4j/aas4j",
+      "title": "GitHub | eclipse-aas4j/aas4j",
+      "description": "Eclipse AAS4J: Java implementation of the AAS metamodel with serializers and deserializers (JSON, XML, RDF, AASX) and validation.",
       "tags": [
         "AAS"
       ]
     },
     {
-      "url": "https://smt-repo.admin-shell-io.com",
-      "title": "IDTA Submodel Template Repository",
-      "description": "Online catalog of IDTA Submodel Templates, filterable by lifecycle phase and application (e.g. Digital Product Passport, Battery Passport), with downloads, API access and PDF specifications for each template. Also lists Concept Descriptions and Submodel Elements.",
+      "url": "https://admin-shell-io.com/",
+      "title": "IDTA | Home of AAS",
+      "description": "Official home of the Asset Administration Shell, maintained by the IDTA: entry point to tools, specifications and community resources.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://industrialdigitaltwin.org/",
+      "title": "IDTA",
+      "description": "Website of the Industrial Digital Twin Association (IDTA), the organization that develops and maintains the AAS standard.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.2/annex/dpp.html",
+      "title": "IDTA | AAS Specifications - AAS Spec Part 1: Annex DPP",
+      "description": "Draft annex to AAS Specification Part 1 (Metamodel, v3.2) that maps the Digital Product Passport requirements of EN 18223 (system interoperability) to the AAS metamodel, using the Battery Passport as an example.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io",
+      "title": "GitHub | admin-shell-io",
+      "description": "GitHub organization of the IDTA with the sources of the AAS specifications (metamodel, API, security, AASX), the Submodel Templates, guides and test engines.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/questions-and-answers",
+      "title": "GitHub | admin-shell-io/Q&A",
+      "description": "IDTA repository with answers to frequently asked questions about the Asset Administration Shell.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://adx-hub.com/",
+      "title": "IDTA | Asset Data eXchange Hub",
+      "description": "The Asset Data eXchange Hub (ADX), a central service that connects data consumers and providers in an AAS-based data ecosystem.",
+      "tags": [
+        "AAS",
+        "IDTA"
+      ]
+    },
+    {
+      "url": "https://marketplace.arena2036.app/de/marketplace",
+      "title": "VWS4LS - Marketplace",
+      "description": "AAS marketplace from the ARENA2036 project VWS4LS (Asset Administration Shell for wire harnesses), built on the Mnestix AAS browser.",
       "tags": [
         "AAS"
+      ]
+    },
+    {
+      "url": "https://dpp40.harting.com:8090/",
+      "title": "HA | Keycloak",
+      "description": "Keycloak Administration Console of the dpp40 test system, which manages identity and access for the DPP services.",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09140083022",
+      "title": "HA | DPP Han Megabit insert male 1 Entry (RwX - PCN)",
+      "description": "HARTING AAS UI for article 09140083022",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09140009950",
+      "title": "HA | DPP Han Dummy Module",
+      "description": "HARTING AAS UI for article 09140009950",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.30P=ZSN1",
+      "title": "HA | DPP Han 24B Assembly ZSN1",
+      "description": "HARTING AAS UI for assembly ZSN1.",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.30P=TIAP5N",
+      "title": "HA | DPP Han 24B Assembly TIAP5N",
+      "description": "HARTING AAS UI for assembly TIAP5N.",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=19407030951",
+      "title": "HA | DPP Han 3HPR Surface M. H. long (RwX - PCF)",
+      "description": "HARTING AAS UI for article 19407030951",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337102601",
+      "title": "HA | DPP Han E10_I_SMC_M_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337102601",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337102601&.1T=8xrs1dep65znvyut",
+      "title": "HA | DPP Han E10_I_SMC_M_SCT_Ag_GreenLine (Batch)",
+      "description": "HARTING AAS UI for article 09337102601 (batch level)",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337102601&.1T=7trc9k6g12",
+      "title": "HA | DPP Han E10_I_SMC_M_SCT_Ag_GreenLine (Batch; OLD)",
+      "description": "HARTING AAS UI for article 09337102601 (batch level)",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://www.base64encode.org/",
+      "title": "Base64 Encode/Decode",
+      "description": "Online tool to encode text or files to Base64 and decode them back, with advanced options for the conversion. Handy for checking encoded AAS and Submodel identifiers in API URLs.",
+      "tags": [
+        "Dev Tools"
+      ]
+    },
+    {
+      "url": "https://editor.swagger.io/",
+      "title": "Swagger Editor",
+      "description": "Browser-based editor for OpenAPI/Swagger specifications with live validation and rendered API docs, useful for viewing the AAS API (Part 2) specifications.",
+      "tags": [
+        "Dev Tools"
+      ]
+    },
+    {
+      "url": "https://www.jwt.io/",
+      "title": "JSON Web Tokens Debugger",
+      "description": "Decode, verify and generate JSON Web Tokens (JWT) in the browser, handy for inspecting Keycloak access tokens.",
+      "tags": [
+        "Dev Tools"
       ]
     },
     {
