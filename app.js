@@ -101,6 +101,14 @@ function matches(b) {
 function renderItem(b) {
   const href = safeHref(b.url);
   const host = hostOf(b.url);
+  const icon = el('img', { className: 'favicon', alt: '', loading: 'lazy', width: 16, height: 16 });
+  if (host) {
+    icon.src = `https://icons.duckduckgo.com/ip3/${host}.ico`;
+    icon.onerror = () => icon.classList.add('missing');
+  } else {
+    icon.classList.add('missing');
+  }
+
   const title = href
     ? el('a', { className: 'title', href, textContent: b.title, target: '_blank', rel: 'noopener noreferrer' })
     : el('span', { className: 'title', textContent: b.title });
@@ -112,6 +120,7 @@ function renderItem(b) {
   return el(
     'li',
     { className: 'item' },
+    icon,
     el(
       'div',
       { className: 'item-body' },

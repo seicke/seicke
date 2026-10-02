@@ -111,6 +111,9 @@ input:focus, button:focus-visible {
 }
 
 
+.favicon { flex: none; margin-top: 3px; border-radius: 3px; }
+.favicon.missing { visibility: hidden; }
+
 .item-body { flex: 1; min-width: 0; }
 .item-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
 .title { font-weight: 600; color: var(--text); text-decoration: none; overflow-wrap: anywhere; }
