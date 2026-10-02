@@ -238,11 +238,12 @@
     },
     {
       "url": "https://pk.harting.com/?.30P=ZSN1",
-      "title": "HA | DPP Han 24B Assembly ZSN1",
+      "title": "HA | DPP Han 24B Assembly ZSN1 (OLD ID)",
       "description": "HARTING AAS UI for assembly ZSN1.",
       "tags": [
         "DPP",
-        "HARTING"
+        "HARTING",
+        "HA DPP Assembly ZSN1"
       ]
     },
     {
@@ -269,7 +270,8 @@
       "description": "HARTING AAS UI for article 09337102601",
       "tags": [
         "DPP",
-        "HARTING"
+        "HARTING",
+        "HA DPP Greenline"
       ]
     },
     {
@@ -278,7 +280,8 @@
       "description": "HARTING AAS UI for article 09337102601 (batch level)",
       "tags": [
         "DPP",
-        "HARTING"
+        "HARTING",
+        "HA DPP Greenline"
       ]
     },
     {
@@ -287,7 +290,8 @@
       "description": "HARTING AAS UI for article 09337102601 (batch level)",
       "tags": [
         "DPP",
-        "HARTING"
+        "HARTING",
+        "HA DPP Greenline"
       ]
     },
     {
@@ -312,6 +316,262 @@
       "description": "Decode, verify and generate JSON Web Tokens (JWT) in the browser, handy for inspecting Keycloak access tokens.",
       "tags": [
         "Dev Tools"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-aascw",
+      "title": "GitHub | eclipse-aascw (aas-core-works)",
+      "description": "Eclipse AAS Core Works (formerly aas-core-works): formalized AAS meta-models, a code generator and generated AAS SDKs for C#, Go, Python, TypeScript, C++ and Java.",
+      "tags": [
+        "AAS",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://projects.eclipse.org/projects/dt",
+      "title": "Eclipse | Digital Twin",
+      "description": "Eclipse Digital Twin top-level project, the umbrella for open-source digital twin and AAS projects at the Eclipse Foundation such as BaSyx and AAS4J.",
+      "tags": [
+        "AAS"
+      ]
+    },
+    {
+      "url": "https://app.swaggerhub.com/apis/ECLASS_Standard/ECLASS_Download_JSON/2.0.0",
+      "title": "ECLASS | Download JSON API 2.0.0",
+      "description": "OpenAPI specification (version 2.0.0) of the ECLASS download service for retrieving ECLASS content as JSON.",
+      "tags": [
+        "ECLASS"
+      ]
+    },
+    {
+      "url": "https://app.swaggerhub.com/apis/ECLASS_Standard/ECLASS_Download_JSON/1.4.1",
+      "title": "ECLASS | Download JSON API 1.4.1",
+      "description": "Older version (1.4.1) of the OpenAPI specification of the ECLASS download service for retrieving ECLASS content as JSON.",
+      "tags": [
+        "ECLASS"
+      ]
+    },
+    {
+      "url": "http://data.europa.eu/eli/reg/2023/1542/oj",
+      "title": "EU | Regulation (EU) 2023/1542 Battery Regulation",
+      "description": "EU Battery Regulation: sustainability, safety and labelling requirements for batteries, including the battery passport and carbon footprint declaration.",
+      "tags": [
+        "DPP",
+        "Regulation"
+      ]
+    },
+    {
+      "url": "http://data.europa.eu/eli/reg/2024/1781/oj",
+      "title": "EU | Regulation (EU) 2024/1781 ESPR",
+      "description": "Ecodesign for Sustainable Products Regulation (ESPR): framework for ecodesign requirements on products placed on the EU market, including the Digital Product Passport.",
+      "tags": [
+        "DPP",
+        "Regulation"
+      ]
+    },
+    {
+      "url": "https://regex101.com/",
+      "title": "regex101",
+      "description": "Online regex tester, builder and debugger with real-time matches and explanations; supports PCRE2, JavaScript, Python and more.",
+      "tags": [
+        "Dev Tools"
+      ]
+    },
+    {
+      "url": "https://www.timeanddate.de/datum/daten?d1=29&m1=3&y1=2022&type=sub&ay=&am=&aw=&ad=6&rec=",
+      "title": "Datenrechner (timeanddate.de)",
+      "description": "Date calculator for adding or subtracting days, weeks, months and years from a date.",
+      "tags": [
+        "Dev Tools"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09330242702",
+      "title": "HA | DPP Insert 09330242702 (Han 24B Assembly ZSN1)",
+      "description": "Digital Product Passport of insert 09330242702, a part of Han 24B Assembly ZSN1, in the HARTING AAS UI.",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Assembly ZSN1"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09330006204",
+      "title": "HA | DPP Contact 09330006204 (Han 24B Assembly ZSN1)",
+      "description": "Digital Product Passport of contact 09330006204, a part of Han 24B Assembly ZSN1, in the HARTING AAS UI.",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Assembly ZSN1"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.20P=ZSN1",
+      "title": "HA | Han 24B Assembly ZSN1 (OLD ID, OLD QUERY Parameter)",
+      "description": "HARTING AAS UI for assembly ZSN1.",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Assembly ZSN1"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.S=1h2thh3rt44g",
+      "title": "HA | DPP Serial 1h2thh3rt44g",
+      "description": "Instance-level Digital Product Passport opened via its ID link with serial number (.S) 1h2thh3rt44g.",
+      "tags": [
+        "DPP",
+        "HARTING"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337062601",
+      "title": "HA | DPP Han E6_I_SMC_M_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337062601",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337062701",
+      "title": "HA | DPP Han E6_I_SMC_F_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337062701",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337102701",
+      "title": "HA | DPP Han E10_I_SMC_F_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337102701",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337162601",
+      "title": "HA | DPP Han E16_I_SMC_M_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337162601",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337162701",
+      "title": "HA | DPP Han E16_I_SMC_F_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337162701",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337242601",
+      "title": "HA | DPP Han E24_I_SMC_M_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337242601",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://pk.harting.com/?.1P=09337242701",
+      "title": "HA | DPP Han E24_I_SMC_F_SCT_Ag_GreenLine (Type)",
+      "description": "HARTING AAS UI for article 09337242701",
+      "tags": [
+        "DPP",
+        "HARTING",
+        "HA DPP Greenline"
+      ]
+    },
+    {
+      "url": "https://github.com/eclipse-aaspe/package-explorer",
+      "title": "GitHub | eclipse-aaspe/package-explorer",
+      "description": "Eclipse AASX Package Explorer: desktop tool for viewing, creating and editing AASX packages and Asset Administration Shells.",
+      "tags": [
+        "AAS",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-test-engines",
+      "title": "GitHub | admin-shell-io/aas-test-engines",
+      "description": "Official IDTA test tooling for the Asset Administration Shell, for checking AAS files and server APIs against the specification; also runs as an online validation service.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-specs-api",
+      "title": "GitHub | admin-shell-io/aas-specs-api",
+      "description": "Source repository of AAS Specification Part 2 (IDTA-01002): Application Programming Interfaces, published at industrialdigitaltwin.io.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "title": "GitHub | admin-shell-io/aas-specs-metamodel",
+      "description": "Source repository of AAS Specification Part 1 (IDTA-01001): Metamodel, published at industrialdigitaltwin.io.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/idta-submodel-templates",
+      "title": "GitHub | admin-shell-io/idta-submodel-templates",
+      "description": "Antora source of the IDTA Submodel Templates documentation website at industrialdigitaltwin.io.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-guides",
+      "title": "GitHub | admin-shell-io/aas-guides",
+      "description": "Source repository of the AAS guides, such as the AAS Reading Guide, published as the IDTA AAS Guides website.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-specs-dpp",
+      "title": "GitHub | admin-shell-io/aas-specs-dpp",
+      "description": "Private IDTA repository (members only) for DPP-related work on the AAS specifications, which may later be included in the public specification.",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "DPP",
+        "Github"
+      ]
+    },
+    {
+      "url": "https://github.com/admin-shell-io/aas-test-engines-exclusive",
+      "title": "GitHub | admin-shell-io/aas-test-engines-exclusive",
+      "description": "Members-only edition of the official IDTA test tooling for the Asset Administration Shell (private repository).",
+      "tags": [
+        "AAS",
+        "IDTA",
+        "Github"
       ]
     },
     {
